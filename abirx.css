@@ -1,0 +1,110 @@
+/* Global styles */
+html {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* Style for the page header */
+header {
+  background-color: #444;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+ font-family: Arial, Helvetica, sans-serif
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* Style for the team member section */
+.team-members {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #333;
+  padding: 20px;
+  gap: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 50px;
+}
+
+/* Style for each team member */
+.team-member {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 250px;
+}
+
+.team-member img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.team-member h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.team-member p {
+  margin: 0;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #666;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.social-links a:hover {
+  background-color: #888;
+}
+
+.social-links i {
+  font-size: 1.5rem;
+}
+
+.social-links a.facebook i {
+  background-image: url('https://img.icons8.com/fluency/48/000000/facebook-new.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social-links a.github i {
+  background-image: url('https://img.icons8.com/material-rounded/48/000000/github.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h1{
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
